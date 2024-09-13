@@ -1,6 +1,6 @@
 // components/Calculator.js
 import React, { useState } from 'react';
-import { View, Text, TextInput, StyleSheet, ScrollView, TouchableOpacity, StatusBar } from 'react-native';
+import { View, Text, TextInput, StyleSheet, ScrollView, TouchableOpacity, Stat } from 'react-native';
 import Button from './Button';
 import { evaluate } from 'mathjs';
 
@@ -19,7 +19,7 @@ const Calculator = () => {
     } else if (value === 'C') {
       setInput('');
       setOutput('');
-    } else {sdfesf
+    } else {
       setInput(input + value);
     }
   };
