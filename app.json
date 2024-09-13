@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "CatchTheBallGame",
-    "slug": "CatchTheBallGame",
+    "slug": "calculator",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,10 +18,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.rahul65241.calculator"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3abdbd23-1021-497f-8db3-1212cacdeb9e"
+      }
+    },
+    "owner": "rahul65241"
   }
 }
