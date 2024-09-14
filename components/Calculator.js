@@ -18,7 +18,7 @@ const Calculator = () => {
         setOutput(formatOutput(result));
         setHistory([...history, `${input} = ${result}`]); // Corrected template literals
       } catch (e) {
-        setOutput('Error');
+        setOutput('Syntax Error');
       }
     } else if (value === 'C') {
       setInput('');
