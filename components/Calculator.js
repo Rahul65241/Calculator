@@ -152,7 +152,7 @@ const Calculator = () => {
           </View>
         ))}
         <TouchableOpacity style={styles.toggleButton} onPress={() => setShowExtra(!showExtra)}>
-          <Text style={styles.toggleButtonText}>{showExtra ? 'Hide' : 'Show'} Extra Functions</Text>
+          <Text style={styles.toggleButtonText}>{showExtra ? 'Hide' : 'Show'} Extra Operators</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.historyButton} onPress={() => {
           // Use appropriate navigation function
