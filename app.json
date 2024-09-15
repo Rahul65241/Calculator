@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "Calculator2.0",
+    "name": "Calculator",
     "slug": "calculator",
     "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon2.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/black.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
