@@ -7,7 +7,7 @@
     "icon": "./assets/icon2.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/black.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -29,6 +29,16 @@
         "projectId": "3abdbd23-1021-497f-8db3-1212cacdeb9e"
       }
     },
-    "owner": "rahul65241"
+    "owner": "rahul65241",
+    "plugins": [
+      [
+        "@sentry/react-native/expo",
+        {
+          "url": "https://sentry.io/",
+          "project": "react-native",
+          "organization": "na-2h"
+        }
+      ]
+    ]
   }
 }
