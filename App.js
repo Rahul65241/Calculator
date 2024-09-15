@@ -4,14 +4,6 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Calculator from './components/Calculator';
 import HistoryScreen from './components/HistoryScreen';
-import * as Sentry from '@sentry/react-native';
-
-Sentry.init({
-  dsn: 'https://829856f2f45f427743ada3590e3fe752@o4507958062284800.ingest.us.sentry.io/4507958064971776',
-
-  // uncomment the line below to enable Spotlight (https://spotlightjs.com)
-  // enableSpotlight: __DEV__,
-});
 
 const Stack = createStackNavigator();
 

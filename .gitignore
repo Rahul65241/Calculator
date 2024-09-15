@@ -35,5 +35,3 @@ yarn-error.*
 *.tsbuildinfo
 
 
-
-.env.local
